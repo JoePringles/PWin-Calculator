@@ -1,0 +1,8 @@
+.boarderless {
+    border: none;
+    border-color: transparent;
+}
+h2 {
+  font-size: large;
+  font-weight: bold;
+}

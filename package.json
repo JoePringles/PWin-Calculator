@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/joepringles.radio-group-fork-l84q9og8",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve LN7DZXtPa6RZsfZZlJTo --open"
+  }
+}

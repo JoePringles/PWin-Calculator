@@ -1,0 +1,32 @@
+<template>
+<div class="slds-box slds-theme_default">
+  <div class="slds-box slds-theme_default boarderless">
+  
+  <div class="slds-box slds-box_xx-small slds-theme_inverse">
+    <h2>Are we the incumbent?</h2>
+  </div>
+  <div class="slds-box slds-theme_shade">
+              <lightning-radio-group name="Incumbent"
+                          options={IncumbentOptions}
+                          value={value}
+                          type="radio"></lightning-radio-group>
+  </div>
+
+  </div>
+  <div class="slds-box slds-theme_default boarderless">
+  <div class="slds-box slds-box_xx-small slds-theme_inverse">
+    <h2>Customer Relationship</h2>
+  </div>
+  <div class="slds-box slds-theme_shade">
+              <lightning-radio-group name="Customer Relationship"
+                          options={CustomerRelationshipOptions}
+                          value={value}
+                          type="radio"></lightning-radio-group>
+  </div>
+
+  </div>
+</div>
+
+
+
+</template>
